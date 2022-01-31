@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position:relative;
+    min-height:100%;
+}
+
+body {
+margin-bottom: 80px;
+}
+
+.cuerpo {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    padding: 1%;
+    overflow: auto;
+    max-width: 1200px;
+    margin: 2% auto 4% auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+header {
+    text-align: center;
+    width: auto;
+    color: #fff;
+}
+
+h1,h2 {
+    font-family: 'Acme', sans-serif;
+}
+
+.sobrecabecera {
+    position: relative;
+    background-color: #51aeca;
+    font-size: 1.5rem;
+    min-height: 70px;
+    padding-top: 20px;
+}
+
+div.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.logo {
+    position: absolute;
+    overflow: auto;
+    top: 50%;
+    margin: -30px 0 0 10%;
+}
+
+.menu {
+    overflow: auto;
+    margin: auto auto;
+}
+
+nav ul li a {
+    color: #fff;
+}
+
+main {
+
+    line-height: 1.5em;
+}
+
+main img {
+    margin: 1% auto;
+}
+
+main div img {
+    height: 150px;
+    width: auto;
+}
+
+.article img {
+    height: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 2%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(61, 61, 61)
+}
+
+a:hover {
+    color: lightblue;
+}
+
+h2 {
+    margin: 3% auto;
+}
+
+.actual {
+    text-decoration: underline;
+}
+
+.cabecera {
+    background-image: url(../img/header2.png);
+    background-size: cover;
+    padding: 2%;
+}
+
+.accessibilitat {
+    float: left;
+    margin-left: 12%;
+}
+
+.usabilitat {
+    float: right;
+    margin-right: 12%;
+}
+
+.accessibilitat,
+.usabilitat {
+    width: 34%;
+    padding: 1% 1% 1% 2%;
+    box-sizing: border-box;
+}
+
+.article {
+    margin: auto auto;
+    padding: 1% 4% 1% 2%;
+    box-sizing: border-box;
+}
+
+.leermas {
+    margin-top: 7%
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    color: #fff;
+    background-color: #35475a;
+    height: 80px;
+    width:100%;
+    padding: 0.5%;
+    font-family: 'VT323', monospace;
+}
+
+footer div {
+    margin: 1% auto auto 10%;
+}
+
+
+main dl,
+main ul {
+    line-height: 1.3em;
+    padding-top: 2%;
+}
+
+main li,
+main dt,
+main dd {
+    padding-left: 4%;
+}
+
+dt {
+    font-weight: bold;
+}
+
+b {
+    color: #00BFFF
+}
+ul p, dl p {
+    margin-bottom:1%;
+}
+
+@media screen and (max-width: 850px) {
+
+    .logo {
+        position: relative;
+        overflow: none;
+        float: center;
+        margin: 0;
+    }
+
+    .nav {
+        margin: auto;
+        text-align: center;
+    }
+
+    .sobrecabecera {
+        padding: 5px 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .accessibilitat,
+    .usabilitat {
+        width: 80%;
+        margin: 1% auto;
+        clear: both;
+        float: none;
+    }
+}

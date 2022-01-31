@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS per al lloc web Coneixement Obert UOC */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 14px Georgia, "Times New Roman", Times, serif;
+	background-color: #fff;
+	color: #222;
+}
+h1 {
+	font: 4em Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin: 0;
+	padding-top: 100px;
+	text-align: center;
+}
+
+h2  {
+	font: 1.8em Arial, Helvetica, sans-serif;
+	color: #4e4e4e;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.text-centre {
+	text-align: center;
+}
+
+.text-dreta {
+	text-align: right;
+}
+
+.text-justificat {
+	text-align: justify;
+}
+
+abbr {
+	border: none;
+}
+
+span.mesinfo {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 6px;
+	background-color: #999;
+	font: 1em Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+span.mesinfo a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+span.mesinfo a:hover {
+	color: #000;
+	border-bottom: none !important;
+}
+
+/* Declaracions per al format dels elements estructurals de la pàgina */
+
+#header {
+	width: 100%;
+	margin-top: 30px;
+}
+
+#main  {
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding:0;
+}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	padding: 40px 0;
+	background-color: #000;
+	color: #fff;
+	clear: both;
+}
+
+/* Declaracions menú de navegació principal */
+
+#nav {
+	width: 100%;
+	height: 60px;
+	padding: 5px 0;
+	background-color: #222;
+}
+
+ul#nav-principal {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font: 1.1em Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+
+ul#nav-principal li {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+	margin: 15px 30px;
+}
+
+ul#nav-principal li a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+ul#nav-principal li a:hover {
+	color: #26c108;
+	border-bottom: none;
+}
+
+#nav img {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+
+
+/* Declaracions per als elements dins del peu de pàgina */
+
+ul#xarxes-socials {
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+}
+	
+ul#xarxes-socials li {
+	width: 35px;
+	height: 35px;
+	padding: 0;
+	display: inline-block;
+}
+	
+ul#xarxes-socials li a {
+	width: 35px;
+	height: 35px;
+	display: block;
+	background: url(../img/sprite-xarxes-socials.png) no-repeat; 
+}
+	
+ul#xarxes-socials li a.twitter { background-position: 0 -35px; }
+ul#xarxes-socials li a.twitter:hover { background-position: 0 0; }
+ul#xarxes-socials li a.facebook { background-position: -35px -35px; }
+ul#xarxes-socials li a.facebook:hover { background-position: -35px 0; }
+
+#footer p, #footer li {
+	font: 1em/1.6 Arial, Helvetica, sans-serif;
+}
+
+#footer p.llistat-links {
+	font-size: 1.3em;
+}
+
+.footer-esquerra {
+	width: 500px;
+	float: left;
+}
+
+.footer-dreta {
+	width: 300px;
+	margin-left: 40px;
+	padding-left: 40px;
+	border-left: 1px solid #999;
+	float: right;
+}
+
+ul.links-peu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.links-peu li a {
+	color: #999;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+ul.links-peu li a:hover {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: none !important;
+}
+
+
+
+/* Declaracions per els continguts de la home */
+
+p.lema {
+	margin: 0 0 30px 0 ;
+	padding: 20px 40px 20px;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	border-top: 1px solid  #903;
+	border-bottom: 1px solid #903
+}
+
+div.row {
+	padding: 0 0 40px 0;
+	overflow: auto;
+}
+
+.clear-l {
+	clear: left;
+}
+
+.caixes-noticies {
+	width: 350px;
+	padding: 0 20px 10px 20px;
+}
+
+.caixes-noticies-left {
+	float: left;
+}
+
+.caixes-noticies-right {
+	float: right;
+}
+
+
+.caixes-noticies p {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+
+div.data {
+	color: #666;
+	font-size: 1em;
+}
+
+form.contacte {
+	font: 1.2em Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+form.contacte ul {
+	list-style-type: none;
+}
+
+form.contacte ul li {
+	padding: 10px 0;
+}
+
+form.contacte label {
+	display: block;
+}
+
+
+form.contacte input[type="text"], form.contacte textarea {
+	border: 1px solid #900;
+	width: 94%;
+	padding: 4px;
+}
+
+
+
